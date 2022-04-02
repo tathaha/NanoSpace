@@ -27,7 +27,7 @@
     "youtube-sr": "^4.1.9"
   },
   "scripts": {
-    "start": "npm i"
+    "start": "node --no-warnings index.js"
   },
   "author": "Adivise",
   "license": "MIT",
