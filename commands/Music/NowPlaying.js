@@ -37,7 +37,7 @@ module.exports = {
             .addField(`${client.i18n.get(language, "music", "np_volume")}`, `${player.volume}%`, true)
             .addField(`${client.i18n.get(language, "music", "np_view")}`, `${views}`, true)
             .addField(`${client.i18n.get(language, "music", "np_upload")}`, `${uploadat}`, true)
-            .addField(`${client.i18n.get(language, "music", "np_download")}`, `**[Click Here](https://www.mp3fromlink.com/watch?v=${song.identifier})**`, true)
+            .addField(`${client.i18n.get(language, "music", "np_download")}`, `**[Click Here](https://www.y2mate.com/youtube/${song.identifier})**`, true)
             .addField(`${client.i18n.get(language, "music", "np_current_duration", {
                 current_duration: CurrentDuration,
                 total_duration: TotalDuration
