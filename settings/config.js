@@ -24,9 +24,49 @@ module.exports = {
 
     NODES: [
       { 
-        host: process.env.NODE_HOST || "localhost",
-        port: parseInt(process.env.NODE_PORT || "5555"),
-        password: process.env.NODE_PASSWORD || "123456",
+        host: process.env.NODE_HOST || "lavalink.islantay.tk",
+        port: parseInt(process.env.NODE_PORT || "8880"),
+        password: process.env.NODE_PASSWORD || "waifufufufu",
+      },
+      { 
+        host: process.env.NODE_HOST || "usa.lavalink.mitask.tech",
+        port: parseInt(process.env.NODE_PORT || "2333"),
+        password: process.env.NODE_PASSWORD || "lvserver",
+      },
+      { 
+        host: process.env.NODE_HOST || "node1.annnekkk.tech",
+        port: parseInt(process.env.NODE_PORT || "17131"),
+        password: process.env.NODE_PASSWORD || "youshallnotpass",
+      },
+      { 
+        host: process.env.NODE_HOST || "weez-node.cf",
+        port: parseInt(process.env.NODE_PORT || "2333"),
+        password: process.env.NODE_PASSWORD || "FreeLava",
+      },
+      { 
+        host: process.env.NODE_HOST || "us1.lavalink.creavite.co",
+        port: parseInt(process.env.NODE_PORT || "20080"),
+        password: process.env.NODE_PASSWORD || "auto.creavite.co",
+      },
+      { 
+        host: process.env.NODE_HOST || "lavalink-coders.ml",
+        port: parseInt(process.env.NODE_PORT || "80"),
+        password: process.env.NODE_PASSWORD || "janemon",
+      },
+      { 
+        host: process.env.NODE_HOST || "lavalink.oops.wtf",
+        port: parseInt(process.env.NODE_PORT || "2000"),
+        password: process.env.NODE_PASSWORD || "www.freelavalink.ga",
+      },
+      { 
+        host: process.env.NODE_HOST || "losingtime.dpaste.org",
+        port: parseInt(process.env.NODE_PORT || "2124"),
+        password: process.env.NODE_PASSWORD || "SleepingOnTrains",
+      },
+      { 
+        host: process.env.NODE_HOST || "lava.link",
+        port: parseInt(process.env.NODE_PORT || "80"),
+        password: process.env.NODE_PASSWORD || "chiraitori",
       } 
     ],
 }
